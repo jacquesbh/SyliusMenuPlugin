@@ -5,12 +5,6 @@
         <id name="id" column="id" type="integer">
             <generator strategy="AUTO"/>
         </id>
-        <field name="createdAt" column="created_at" type="datetime_immutable">
-            <gedmo:timestampable on="create"/>
-        </field>
-        <field name="updatedAt" column="updated_at" type="datetime_immutable">
-            <gedmo:timestampable on="update"/>
-        </field>
         <field name="code" column="code" type="string" length="255" nullable="true">
             <options name="default">null</options>
         </field>
