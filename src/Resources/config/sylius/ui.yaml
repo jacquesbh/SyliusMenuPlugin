@@ -24,12 +24,10 @@ sylius_ui:
             blocks:
                 menu_js:
                     template: '@MonsieurBizSyliusMenuPlugin/Admin/Menu/_js.html.twig'
-
         sylius.shop.layout.header:
             blocks:
                 menu:
-                    template: '@MonsieurBizSyliusMenuPlugin/Layout/Header/_menu.html.twig'
-                    
+                    template: '@MonsieurBizSyliusMenuPlugin/Layout/Header/_menu.html.twig'   
         sylius.shop.layout.footer:
             blocks:
                 grid: 
