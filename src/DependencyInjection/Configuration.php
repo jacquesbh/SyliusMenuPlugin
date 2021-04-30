@@ -21,6 +21,6 @@ final class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        return new TreeBuilder('monsieurbiz_sylius_menu');
+        return new TreeBuilder('monsieurbiz_menu_admin_menu');
     }
 }
